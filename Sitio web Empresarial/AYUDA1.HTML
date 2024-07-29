@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenidos a Mi Página Web</h1>
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/dania/OneDrive/Documentos/Dise%C3%B1o%20web/Empresarial.html#about">Inicio</a></li>
+        <li><a href="file:///C:/Users/dania/OneDrive/Documentos/Dise%C3%B1o%20web/Sitio%20web%20Empresarial/Inicio.html">Acerca de nosotros</a></li>
+         <li><a href="file:///C:/Users/dania/OneDrive/Documentos/Dise%C3%B1o%20web/Sitio%20web%20Empresarial/Beneficios.html">Beneficios</a></li>
+        <li><a href="file:///C:/Users/dania/OneDrive/Documentos/Dise%C3%B1o%20web/Sitio%20web%20Empresarial/Mision.html">Mision</a></li>
+         <li><a href="file:///C:/Users/dania/OneDrive/Documentos/Dise%C3%B1o%20web/Sitio%20web%20Empresarial/Vision.html">Vision</a></li>
+         <li><a href="file:///C:/Users/dania/OneDrive/Documentos/Dise%C3%B1o%20web/Sitio%20web%20Empresarial/Fondos.html">Fondos</a></li>
+         <li><a href="file:///C:/Users/dania/OneDrive/Documentos/Dise%C3%B1o%20web/Sitio%20web%20Empresarial/Contacto.html#contact">Contactos</a></li>
+         <li><a href="#contact">Ayuda</a></li>
+         <li><a href="file:///C:/Users/dania/OneDrive/Documentos/Dise%C3%B1o%20web/Sitio%20web%20Empresarial/Ubicacion.html">Ubicacion</a></li>
+          <li><a href="file:///C:/Users/dania/OneDrive/Documentos/Dise%C3%B1o%20web/Sitio%20web%20Empresarial/Anexos.html">Anexos</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    
+                             <section>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes Sociales</title>
+    <style>
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .social-icons img {
+            width: 50px; /* Ajusta el tamaño según tus necesidades */
+            height: auto;
+        }
+    </style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadro de Opiniones</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+
+        .opinion-box, .login-box, .submit-box {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+            display: none;
+        }
+
+        .submit-box.active, .login-box.active, .opinion-box.active {
+            display: block;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 15px;
+            border: none;
+            background-color: #007BFF;
+            color: #fff;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #opinionsList {
+            margin-top: 20px;
+        }
+
+        .opinion {
+            border-top: 1px solid #ccc;
+            padding: 10px 0;
+            position: relative;
+        }
+
+        .opinion h4 {
+            margin: 0;
+        }
+
+        .opinion p {
+            margin: 5px 0 0 0;
+        }
+
+        .delete-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #ff4d4d;
+            border: none;
+            color: #fff;
+            border-radius: 4px;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+
+        .delete-btn:hover {
+            background-color: #ff1a1a;
+        }
+    </style>
+</head>
+<body>
+    <div class="submit-box active">
+        <h2>Deja tu Comentario</h2>
+        <form id="opinionForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="opinion">Comentarios:</label>
+            <textarea id="opinion" name="opinion" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+   <P> <div class="login-box">
+        <h2>Acceso a Opiniones</h2>
+        <form id="loginForm">
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required></P>
+            
+            <button type="submit">Ingresar</button>
+        </form>
+    </div>
+
+    <div class="opinion-box">
+        <h2>Opiniones Recientes</h2>
+        <div id="opinionsList"></div>
+        <button id="closeOpinionsBtn">Cerrar</button>
+    </div>
+
+    <script>
+        const loginForm = document.getElementById('loginForm');
+        const opinionBox = document.querySelector('.opinion-box');
+        const submitBox = document.querySelector('.submit-box');
+        const loginBox = document.querySelector('.login-box');
+        const closeOpinionsBtn = document.getElementById('closeOpinionsBtn');
+
+        const validPassword = 'Dania2006';
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const loggedIn = sessionStorage.getItem('loggedIn');
+            if (loggedIn === 'true') {
+                loginBox.classList.remove('active');
+                opinionBox.classList.add('active');
+            } else {
+                loginBox.classList.add('active');
+            }
+        });
+
+        loginForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const password = document.getElementById('password').value;
+            
+            if (password === validPassword) {
+                sessionStorage.setItem('loggedIn', 'true');
+                loginBox.classList.remove('active');
+                opinionBox.classList.add('active');
+            } else {
+                alert('Contraseña incorrecta');
+            }
+        });
+
+        closeOpinionsBtn.addEventListener('click', function() {
+            opinionBox.classList.remove('active');
+            loginBox.classList.add('active');
+            sessionStorage.removeItem('loggedIn');
+        });
+
+        document.getElementById('opinionForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const opinion = document.getElementById('opinion').value;
+            
+            if (name && opinion) {
+                addOpinion(name, opinion);
+                document.getElementById('opinionForm').reset();
+            }
+        });
+
+        function addOpinion(name, opinion) {
+            const opinionBox = document.createElement('div');
+            opinionBox.classList.add('opinion');
+            
+            const opinionName = document.createElement('h4');
+            opinionName.textContent = name;
+            
+            const opinionText = document.createElement('p');
+            opinionText.textContent = opinion;
+
+            const deleteButton = document.createElement('button');
+            deleteButton.textContent = 'Eliminar';
+            deleteButton.classList.add('delete-btn');
+            deleteButton.onclick = function() {
+                opinionBox.remove();
+            };
+            
+            opinionBox.appendChild(opinionName);
+            opinionBox.appendChild(opinionText);
+            opinionBox.appendChild(deleteButton);
+            
+            document.getElementById('opinionsList').appendChild(opinionBox);
+        }
+    </script>
+</body>
+</body>
+
+
+       
+   
+</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar Color de Fondo</title>
+    <style>
+        body {
+            background-color: yellow; /* Cambia el color aquí */
+        }
+    </style>
+</head>
+
+</html>
