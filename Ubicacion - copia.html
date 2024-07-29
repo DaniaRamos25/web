@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bienvenidos a Mi Página Web</h1>
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/dania/OneDrive/Documentos/Dise%C3%B1o%20web/Empresarial.html#about">Inicio</a></li>
+        <li><a href="file:///C:/Users/dania/OneDrive/Documentos/Dise%C3%B1o%20web/Sitio%20web%20Empresarial/Inicio.html">Acerca de nosotros</a></li>
+         <li><a href="file:///C:/Users/dania/OneDrive/Documentos/Dise%C3%B1o%20web/Sitio%20web%20Empresarial/Beneficios.html">Beneficios</a></li>
+        <li><a href="#contact">Mision</a></li>
+         <li><a href="file:///C:/Users/dania/OneDrive/Documentos/Dise%C3%B1o%20web/Sitio%20web%20Empresarial/Vision.html">Vision</a></li>
+         <li><a href="file:///C:/Users/dania/OneDrive/Documentos/Dise%C3%B1o%20web/Sitio%20web%20Empresarial/Fondos.html">Fondos</a></li>
+         <li><a href="file:///C:/Users/dania/OneDrive/Documentos/Dise%C3%B1o%20web/Sitio%20web%20Empresarial/Contacto.html#contact">Contactos</a></li>
+         <li><a href="file:///C:/Users/dania/OneDrive/Documentos/Dise%C3%B1o%20web/Sitio%20web%20Empresarial/AYUDA1.HTML">Ayuda</a></li>
+         <li><a href="#contact">Ubicacion</a></li>
+          <li><a href="file:///C:/Users/dania/OneDrive/Documentos/Dise%C3%B1o%20web/Sitio%20web%20Empresarial/Anexos.html">Anexos</a></li>
+
+            </ul>
+        </nav>
+    </header>
+</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar Color de Fondo</title>
+    <style>
+        body {
+            background-color: yellow; /* Cambia el color aquí */
+        }
+    </style>
+</head>
+<head>
+  <CENTER>  <H1>MI UBICACION</H1></CENETR>
+    <title>MAPA</title>
+    <!-- Incluye los estilos de Leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <!-- Estilos adicionales para el mapa -->
+    <style>
+        #map { height: 400px; }
+    </style>
+</head>
+<body>
+    <h1>Leaflet Map</h1>
+    <div id="map"></div>
+<!-- Incluye la biblioteca de Leaflet y tu código JavaScript -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script>
+        // Inicializa el mapa
+        var map = L.map('map').setView([51.505, -0.09], 13); // Coordenadas de Londres
+
+        // Añade una capa de mapa base (puedes usar diferentes proveedores de mapas)
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Añade un marcador en una ubicación específica
+        L.marker([15.044122, -87.958853]).addTo(map)
+    .bindPopup('¡Hola! Este es tu marcador.')
+    .openPopup();
+
+    </script>
+</head>
+</body
+</html>
